@@ -2,7 +2,7 @@
   --white-color: #fff;
   --main-color: #7e00de;
   --grey-bg-color: #f1f1f1;
-  --text-color-grey:#99a1af;
+  --text-color-grey: #99a1af;
   --spacing: 0.25rem;
   --bg-color: #edeff0;
   --secondary-color: #f5f3ff;
@@ -28,7 +28,7 @@ body {
 
 /*  */
 .text-color-grey {
-  color:var(--text-color-grey)
+  color: var(--text-color-grey);
 }
 .bg-green-300 {
   background-color: var(--bg-green-300);
@@ -236,7 +236,8 @@ body {
 
 .location-box1 {
   background-image:
-    linear-gradient(to right, #4e179a80, #58168b9c), url(/images/new-york.jpeg);
+    linear-gradient(to right, #4e179a80, #58168b9c),
+    url(../images/new-york.jpeg);
   background-size: cover;
   background-position: center center;
   min-height: 10vh;
@@ -244,14 +245,14 @@ body {
 .location-box2 {
   background-image:
     linear-gradient(to right, #4e179a80, #58168b9c),
-    url(/images/los-angeles.jpeg);
+    url(../images/los-angeles.jpeg);
   background-size: cover;
   background-position: center center;
   min-height: 10vh;
 }
 .location-box3 {
   background-image:
-    linear-gradient(to right, #4e179a80, #58168b9c), url(/images/miami.jpeg);
+    linear-gradient(to right, #4e179a80, #58168b9c), url(../images/miami.jpeg);
   background-size: cover;
   background-position: center center;
   min-height: 10vh;
@@ -263,7 +264,7 @@ body {
 .hero {
   background-image:
     linear-gradient(to right, #4d179acc, #59168bcc),
-    url(/images/hero-bg-img.png);
+    url(../images/hero-bg-img.png);
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
@@ -796,20 +797,20 @@ body {
   right: -15px;
 }
 
-.col-md-3 .span1:hover  {
-color: var(--bg-purp-600)
+.col-md-3 .span1:hover {
+  color: var(--bg-purp-600);
 }
-.col-md-3 .span2:hover  {
-color: var(--bg-purp-600)
+.col-md-3 .span2:hover {
+  color: var(--bg-purp-600);
 }
 .col-md-3 .span3:hover {
-color: var(--bg-purp-600)
+  color: var(--bg-purp-600);
 }
-.col-md-3 .span4:hover  {
-color: var(--bg-purp-600)
+.col-md-3 .span4:hover {
+  color: var(--bg-purp-600);
 }
 .col-md-3 .span5:hover {
-color: var(--bg-purp-600)
+  color: var(--bg-purp-600);
 }
 .h-px {
   height: 1px;
@@ -824,22 +825,22 @@ color: var(--bg-purp-600)
 }
 .res1 .arrow1,
 .res2 .arrow2,
-.res3 .arrow3{
+.res3 .arrow3 {
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .res1:hover .str1 {
   color: var(--bg-purp-600);
-  transform: translateX(10px)
+  transform: translateX(10px);
 }
 .res1:hover .arrow1 {
-  transform: translateX(6px)
+  transform: translateX(6px);
 }
 .res2:hover .arrow2 {
-  transform: translateX(6px)
+  transform: translateX(6px);
 }
 .res3:hover .arrow3 {
-  transform: translateX(6px)
+  transform: translateX(6px);
 }
 
 .res2:hover .str2 {
