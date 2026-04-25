@@ -850,3 +850,34 @@ body {
   color: var(--bg-purp-600);
 }
 /*  */
+
+.entry-form {
+  width: min(92%, 900px);
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.entry-form .row {
+  row-gap: 15px;
+}
+
+@media (max-width: 576px) {
+  .entry-form {
+    width: 92%;
+    margin-top: 25px;
+    padding: 20px;
+  }
+
+  .entry-form .col-md-3,
+  .entry-form .col-md-4,
+  .entry-form .col-md-6 {
+    width: 100%;
+  }
+
+  .entry-form input,
+  .entry-form select,
+  .entry-form button {
+    width: 100%;
+  }
+}
